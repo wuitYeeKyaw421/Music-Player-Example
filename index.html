@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fastbootstrap@1.1.2/dist/css/fastbootstrap.min.css"
+    />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="icon/music.jpg" />
+    <title>MINI MUSIC PLAYER</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="musicList"></div>
+
+      <audio class="audiotag" src="">
+        Your Broswer does not support the audio element
+      </audio>
+
+      <div class="time">00:00 : 00:00</div>
+
+      <div class="progressbar">
+        <div class="currentprogress"></div>
+      </div>
+
+      <div class="controlsdiv">
+        <i class="fa-solid controls fa-backward-step backward"></i>
+        <i class="fa-regular controls fa-circle-play play"></i>
+        <i class="fa-regular controls fa-circle-pause pause"></i>
+        <i class="fa-solid controls fa-forward-step forward"></i>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
