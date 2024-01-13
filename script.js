@@ -9,7 +9,7 @@ let forwardbutton = document.getElementsByClassName("forward")[0];
 
 let musicList = [
   {
-    id: "../Music/Alan Walker All Falls Down.mp3",
+    id: "Music/Alan Walker All Falls Down.mp3",
     name: "Alan Walker All Falls Down",
   },
   { id: "Music/Alan Walker Faded.mp3", name: "Alan Walker Faded" },
