@@ -12,10 +12,10 @@ let musicList = [
     id: "../Music/Alan Walker All Falls Down.mp3",
     name: "Alan Walker All Falls Down",
   },
-  { id: "../Music/Alan Walker Faded.mp3", name: "Alan Walker Faded" },
-  { id: "../Music/Alan Walker Ignite.mp3", name: "Alan Walker Ignite" },
-  { id: "../Music/HAPPIER x SUNFLOWER.mp3", name: "HAPPIER x SUNFLOWER" },
-  { id: "../Music/Lily Alan Walker.mp3", name: "Alan Walker Lily" },
+  { id: "Music/Alan Walker Faded.mp3", name: "Alan Walker Faded" },
+  { id: "Music/Alan Walker Ignite.mp3", name: "Alan Walker Ignite" },
+  { id: "Music/HAPPIER x SUNFLOWER.mp3", name: "HAPPIER x SUNFLOWER" },
+  { id: "Music/Lily Alan Walker.mp3", name: "Alan Walker Lily" },
 ];
 
 let musicItem;
